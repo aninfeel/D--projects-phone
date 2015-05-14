@@ -1,0 +1,152 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node',
+1 verbose cli   '0.10.29',
+1 verbose cli   '-g' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 silly cache add args [ 'node', null ]
+6 verbose cache add spec node
+7 silly cache add args [ '0.10.29', null ]
+8 verbose cache add spec 0.10.29
+9 silly cache add parsed spec { raw: 'node',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'node',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 verbose addNamed node@*
+11 silly addNamed semver.valid null
+12 silly addNamed semver.validRange *
+13 silly addNameRange { name: 'node', range: '*', hasData: false }
+14 silly mapToRegistry name node
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry http://registry.npmjs.org/
+17 silly mapToRegistry uri http://registry.npmjs.org/node
+18 verbose addNameRange registry:http://registry.npmjs.org/node not in flight; fetching
+19 silly cache add parsed spec { raw: '0.10.29',
+19 silly cache add   scope: null,
+19 silly cache add   name: '0.10.29',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: '*',
+19 silly cache add   type: 'range' }
+20 verbose addNamed 0.10.29@*
+21 silly addNamed semver.valid null
+22 silly addNamed semver.validRange *
+23 silly addNameRange { name: '0.10.29', range: '*', hasData: false }
+24 silly mapToRegistry name 0.10.29
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry http://registry.npmjs.org/
+27 silly mapToRegistry uri http://registry.npmjs.org/0.10.29
+28 verbose addNameRange registry:http://registry.npmjs.org/0.10.29 not in flight; fetching
+29 verbose request uri http://registry.npmjs.org/node
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 16:14:17
+32 verbose request id 38c08bfe88087b24
+33 http request GET http://registry.npmjs.org/node
+34 verbose request uri http://registry.npmjs.org/0.10.29
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 16:14:17
+37 http request GET http://registry.npmjs.org/0.10.29
+38 http 404 http://registry.npmjs.org/0.10.29
+39 verbose headers { via: '1.1 varnish, 1.1 ISACBT',
+39 verbose headers   connection: 'Keep-Alive',
+39 verbose headers   'proxy-connection': 'Keep-Alive',
+39 verbose headers   'content-length': '51',
+39 verbose headers   age: '0',
+39 verbose headers   date: 'Thu, 14 May 2015 08:14:17 GMT',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1431591257.564100,VS0,VE194' }
+40 silly get cb [ 404,
+40 silly get   { via: '1.1 varnish, 1.1 ISACBT',
+40 silly get     connection: 'Keep-Alive',
+40 silly get     'proxy-connection': 'Keep-Alive',
+40 silly get     'content-length': '51',
+40 silly get     age: '0',
+40 silly get     date: 'Thu, 14 May 2015 08:14:17 GMT',
+40 silly get     'content-type': 'application/json',
+40 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly get     'cache-control': 'max-age=0',
+40 silly get     'accept-ranges': 'bytes',
+40 silly get     'x-served-by': 'cache-nrt6129-NRT',
+40 silly get     'x-cache': 'MISS',
+40 silly get     'x-cache-hits': '0',
+40 silly get     'x-timer': 'S1431591257.564100,VS0,VE194' } ]
+41 http 200 http://registry.npmjs.org/node
+42 silly get cb [ 200,
+42 silly get   { via: '1.1 varnish, 1.1 ISACBT',
+42 silly get     connection: 'Keep-Alive',
+42 silly get     'proxy-connection': 'Keep-Alive',
+42 silly get     'content-length': '1018',
+42 silly get     age: '0',
+42 silly get     date: 'Thu, 14 May 2015 08:14:18 GMT',
+42 silly get     'content-type': 'application/json',
+42 silly get     etag: '"4A754Q2V2HQ65BJAR8DUU8BED"',
+42 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 silly get     'cache-control': 'max-age=60',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     'x-served-by': 'cache-nrt6132-NRT',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '1',
+42 silly get     'x-timer': 'S1431591257.570659,VS0,VE782',
+42 silly get     vary: 'Accept' } ]
+43 verbose get saving node to C:\Users\chenjingan\AppData\Roaming\npm-cache\registry.npmjs.org\node\.cache.json
+44 silly addNameRange number 2 { name: 'node', range: '*', hasData: true }
+45 silly addNameRange versions [ 'node', [ '0.0.0' ] ]
+46 verbose addNamed node@0.0.0
+47 silly addNamed semver.valid 0.0.0
+48 silly addNamed semver.validRange 0.0.0
+49 warn deprecated node@0.0.0: To update or install node, go to http://nodejs.org/
+50 silly mapToRegistry name node
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry http://registry.npmjs.org/
+53 silly mapToRegistry uri http://registry.npmjs.org/node
+54 verbose addRemoteTarball http://registry.npmjs.org/node/-/node-0.0.0.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'http://registry.npmjs.org/node/-/node-0.0.0.tgz',
+55 verbose addRemoteTarball   '288d62f90530c763eff8d4831ee7343ab3d60793' ]
+56 info retry fetch attempt 1 at 16:14:18
+57 info attempt registry request try #1 at 16:14:18
+58 http fetch GET http://registry.npmjs.org/node/-/node-0.0.0.tgz
+59 http fetch 200 http://registry.npmjs.org/node/-/node-0.0.0.tgz
+60 silly fetchAndShaCheck shasum 288d62f90530c763eff8d4831ee7343ab3d60793
+61 verbose addTmpTarball C:\Users\CHENJI~1\AppData\Local\Temp\npm-6752-b7ae6c78\registry.npmjs.org\node\-\node-0.0.0.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for node@0.0.0
+63 silly cache afterAdd node@0.0.0
+64 verbose afterAdd C:\Users\chenjingan\AppData\Roaming\npm-cache\node\0.0.0\package\package.json not in flight; writing
+65 verbose afterAdd C:\Users\chenjingan\AppData\Roaming\npm-cache\node\0.0.0\package\package.json written
+66 verbose stack Error: 404 Not Found: 0.10.29
+66 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:245:14)
+66 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+66 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:344:22)
+66 verbose stack     at Request.emit (events.js:110:17)
+66 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1239:14)
+66 verbose stack     at Request.emit (events.js:129:20)
+66 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1187:12)
+66 verbose stack     at IncomingMessage.emit (events.js:129:20)
+66 verbose stack     at _stream_readable.js:908:16
+66 verbose stack     at process._tickCallback (node.js:355:11)
+67 verbose statusCode 404
+68 verbose pkgid 0.10.29
+69 verbose cwd D:\projects\phone
+70 error Windows_NT 6.1.7601
+71 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node" "0.10.29" "-g"
+72 error node v0.12.2
+73 error npm  v2.7.4
+74 error code E404
+75 error 404 Not Found: 0.10.29
+75 error 404
+75 error 404 '0.10.29' is not in the npm registry.
+75 error 404 You should bug the author to publish it (or use the name yourself!)
+75 error 404
+75 error 404 Note that you can also install from a
+75 error 404 tarball, folder, http url, or git url.
+76 verbose exit [ 1, true ]
