@@ -7,7 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-    <content src="http://172.16.29.216:8080/lf/smt.jsp" />
+    <content src="http://172.16.28.198:8080/lf/smt.jsp" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
